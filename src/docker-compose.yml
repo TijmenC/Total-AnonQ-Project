@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  anonq:
+    image: ${DOCKER_REGISTRY-}anonq
+    build:
+      context: .
+      dockerfile: AnonQ/Dockerfile
+
+      AnonQJobs:
+    image: ${DOCKER_REGISTRY-}AnonQJobs
+    build:
+      context: .
+      dockerfile: AnonQJobs/Dockerfile
+
+        anonq-react:
+    image: anonq-react
+    container_name: anonq-react
+    build:
+      context: .
+      dockerfile: anonq-react/Dockerfile
+    stdin_open: true
+    ports:
+      - 3010:3000
+    volumes:
+      - './anonq-react:/app'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
