@@ -21,7 +21,7 @@ function Question({ question, refreshQuestions }) {
       }, [question.id]);
 
     const handleDelete = () => {
-        axios.delete('https://localhost:44348/api/question/DeleteQuestionAndPolls/' + question.id)
+        axios.delete('https://localhost:23459/api/question/DeleteQuestionAndPolls/' + question.id)
         .then(function (response) {
             console.log(response)
             handleClose()
@@ -34,7 +34,7 @@ function Question({ question, refreshQuestions }) {
     }
 
     const handleComments = () => {
-        axios.get('https://localhost:44348/api/comment/' + question.id + '/GetAllCommentsID')
+        axios.get('https://localhost:23459/api/comment/' + question.id + '/GetAllCommentsID')
         .then(function (response) {
             console.log(response)
             setComments(response.data)

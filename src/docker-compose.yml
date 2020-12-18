@@ -26,3 +26,17 @@ services:
       - './anonq-react:/app'
     environment:
       - CHOKIDAR_USEPOLLING=true
+
+      anonq-adminpanel:
+    image: anonq-adminpanel
+    container_name: anonq-adminpanel
+    build:
+      context: .
+      dockerfile: anonq-adminpanel/Dockerfile
+    stdin_open: true
+    ports:
+      - 3010:3000
+    volumes:
+      - './anonq-adminpanel:/app'
+    environment:
+      - CHOKIDAR_USEPOLLING=true

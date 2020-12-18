@@ -12,7 +12,7 @@ function AdminPanel() {
     }, []);
 
     const getQuestions = () => {
-        axios.get('https://localhost:44348/api/question')
+        axios.get('https://localhost:23459/api/question')
         .then(function (response) {
           setAllQuestions(response.data)
         })

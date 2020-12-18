@@ -16,7 +16,7 @@ function Question({ comments, refreshComments }) {
     const handleShow = () => setShow(true);
 
     const handleDeleteComment = (id) => {
-        axios.delete('https://localhost:44348/api/comment/' + id)
+        axios.delete('https://localhost:23459/api/comment/' + id)
         .then(function (response) {
             console.log(response)
             refreshComments()
