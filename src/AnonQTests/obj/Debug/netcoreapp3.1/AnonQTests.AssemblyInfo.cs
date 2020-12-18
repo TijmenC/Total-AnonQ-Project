@@ -11,7 +11,8 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnonQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ", "AnonQ.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnonQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\A" +
+    "nonQ", "AnonQ.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnonQTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JSaHzbzhBzpgxc4d5fbpZrECWV01N2UvQx6pG1GY5MjwclnksBNXnImrtbI3zvU2xzg3BZLRLM6feXbMXHzykA==",
+  "dgSpecHash": "d/umtrRobNMMTyumYEqkbPBKbSDMGLbGB6TnNs0Lzb+LpbHMZqAK2cHuWVQgD7laDyxaWLF41Ava8Fd2SxVMCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\AnonQ.csproj",
+  "projectFilePath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\AnonQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tijme\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\tijme\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

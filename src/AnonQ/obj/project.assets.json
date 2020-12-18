@@ -8940,11 +8940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\AnonQ.csproj",
+      "projectUniqueName": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\AnonQ.csproj",
       "projectName": "AnonQ",
-      "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\AnonQ.csproj",
+      "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\AnonQ.csproj",
       "packagesPath": "C:\\Users\\tijme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\obj\\",
+      "outputPath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

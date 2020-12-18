@@ -8845,11 +8845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQTests\\AnonQTests.csproj",
+      "projectUniqueName": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQTests\\AnonQTests.csproj",
       "projectName": "AnonQTests",
-      "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQTests\\AnonQTests.csproj",
+      "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQTests\\AnonQTests.csproj",
       "packagesPath": "C:\\Users\\tijme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQTests\\obj\\",
+      "outputPath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8868,8 +8868,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\AnonQ.csproj": {
-              "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\AnonQ Project\\AnonQ\\AnonQ.csproj"
+            "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\AnonQ.csproj": {
+              "projectPath": "C:\\Users\\tijme\\Documents\\Semester 3\\Total AnonQ Project\\Total-AnonQ-Project\\src\\AnonQ\\AnonQ.csproj"
             }
           }
         }
