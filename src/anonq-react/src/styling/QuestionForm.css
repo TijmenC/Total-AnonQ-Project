@@ -1,0 +1,18 @@
+.FormStyling {
+    height: 100%;
+    margin: auto;
+    width: 960px;
+    margin-top:70px;
+    overflow: scroll;
+    overflow-x: hidden;
+  } 
+  .FormStyling2 {
+    height: 250px;
+    margin: auto;
+    width: auto;
+    margin-top:70px;
+    overflow: scroll;
+    overflow-x: hidden;
+  } 
+  
+  

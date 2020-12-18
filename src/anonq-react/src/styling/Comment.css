@@ -1,0 +1,19 @@
+.MiddleRow {
+    text-align: center;
+  vertical-align: middle;
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(255, 255, 255);
+    margin: 1em 0; padding: 0; }
+ .FormStyling {
+      height: 100%;
+      margin: auto;
+      width: 960px;
+      margin-top:70px;
+      overflow: scroll;
+      overflow-x: hidden;
+    } 
+    .questionHead{
+      width: 70vw;
+      margin-top: 4rem;
+  }

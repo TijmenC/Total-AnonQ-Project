@@ -1,0 +1,22 @@
+.btn-primary  {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    outline: none !important;
+    margin: 5px;
+}
+.btn-primary:hover {
+    background-color:black; 
+    color: gray;
+    outline: none !important;
+  }
+.report {
+    text-align: left;
+}
+.skip {
+    text-align: right;
+}
+.questionHead{
+    width: 70vw;
+    margin-top: 4rem;
+}
