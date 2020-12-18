@@ -28,10 +28,10 @@ namespace AnonQ
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddDbContext<TodoContext>(opt =>
-            //   opt.UseInMemoryDatabase("TodoList"));
-            services.AddDbContext<QuestionContext>
-                (op => op.UseSqlServer(Configuration.GetConnectionString("AnonQDatabase")));
+             services.AddDbContext<QuestionContext>(opt =>
+              opt.UseInMemoryDatabase("AnonQDatabase"));
+           // services.AddDbContext<QuestionContext>
+            //    (op => op.UseSqlServer(Configuration.GetConnectionString("AnonQDatabase")));
             services.AddControllers();
             //NOTE: re-enable cors when deployed
             services.AddCors();
