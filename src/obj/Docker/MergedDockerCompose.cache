@@ -1,15 +1,18 @@
 services:
   anonq:
     build:
-      context: C:\Users\tijme\Documents\Semester 3\AnonQ Project
+      context: C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src
       dockerfile: AnonQ/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
+      ASPNETCORE_URLS: https://+:443/;http://+:80
     image: anonq
     ports:
-    - target: 80
-    - target: 443
+    - published: 23458
+      target: 80
+    - published: 23459
+      target: 443
     volumes:
-    - C:\Users\tijme\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\tijme\.aspnet\https:/root/.aspnet/https:ro
+    - C:\Users\tijme\.microsoft\usersecrets:/root/.microsoft/usersecrets:ro
 version: '3.4'

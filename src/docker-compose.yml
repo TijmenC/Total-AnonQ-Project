@@ -7,8 +7,8 @@ services:
       context: .
       dockerfile: AnonQ/Dockerfile
 
-      AnonQJobs:
-    image: ${DOCKER_REGISTRY-}AnonQJobs
+      anonqjobs:
+    image: ${DOCKER_REGISTRY-}anonqjobs
     build:
       context: .
       dockerfile: AnonQJobs/Dockerfile

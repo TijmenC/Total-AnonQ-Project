@@ -153,8 +153,8 @@ C:\Users\tijme\Documents\Semester 3\AnonQ Project\AnonQ\obj\Debug\netcoreapp3.1\
 C:\Users\tijme\Documents\Semester 3\AnonQ Project\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.genruntimeconfig.cache
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\AnonQ.exe
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\AnonQ.exe
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\AnonQ.deps.json
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\AnonQ.runtimeconfig.json
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\bin\Debug\netcoreapp3.1\AnonQ.runtimeconfig.dev.json
@@ -297,6 +297,8 @@ C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.csprojAssemblyReference.cache
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.AssemblyInfoInputs.cache
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.AssemblyInfo.cs
+C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.csproj.CoreCompileInputs.cache
+C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.RazorTargetAssemblyInfo.cache
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\AnonQ.csproj.CopyComplete
 C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\AnonQ\obj\Debug\netcoreapp3.1\staticwebassets\AnonQ.StaticWebAssets.Manifest.cache

@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  AnonQ:
+  anonq:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443/;http://+:80
@@ -11,7 +11,7 @@ services:
     volumes:
       - ~/.aspnet/https:/root/.aspnet/https:ro
       - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
-  AnonQJobs:
+  anonqjobs:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443/;http://+:80
