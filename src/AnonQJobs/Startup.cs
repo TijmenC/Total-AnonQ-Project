@@ -27,8 +27,8 @@ namespace AnonQJobs
         public void ConfigureServices(IServiceCollection services)
         {
             //Add DB
-            services.AddDbContext<QuestionContext>
-              (op => op.UseSqlServer(Configuration.GetConnectionString("AnonQDatabase")));
+            services.AddDbContext<QuestionContext>(opt =>
+             opt.UseInMemoryDatabase("AnonQDatabase"));
             // Add Quartz services
             services.AddSingleton<IJobFactory, SingletonJobFactory>();
             services.AddSingleton<ISchedulerFactory, StdSchedulerFactory>();

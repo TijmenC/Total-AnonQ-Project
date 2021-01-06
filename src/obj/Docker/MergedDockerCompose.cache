@@ -15,4 +15,48 @@ services:
     volumes:
     - C:\Users\tijme\.aspnet\https:/root/.aspnet/https:ro
     - C:\Users\tijme\.microsoft\usersecrets:/root/.microsoft/usersecrets:ro
+  anonq-adminpanel:
+    build:
+      context: C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src
+      dockerfile: anonq-adminpanel/Dockerfile
+    container_name: anonq-adminpanel
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    image: anonq-adminpanel
+    ports:
+    - published: 3020
+      target: 3000
+    stdin_open: true
+    volumes:
+    - C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\anonq-adminpanel:/app:rw
+  anonq-react:
+    build:
+      context: C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src
+      dockerfile: anonq-react/Dockerfile
+    container_name: anonq-react
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    image: anonq-react
+    ports:
+    - published: 3010
+      target: 3000
+    stdin_open: true
+    volumes:
+    - C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src\anonq-react:/app:rw
+  anonqjobs:
+    build:
+      context: C:\Users\tijme\Documents\Semester 3\Total AnonQ Project\Total-AnonQ-Project\src
+      dockerfile: AnonQJobs/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443/;http://+:80
+    image: anonqjobs
+    ports:
+    - published: 23456
+      target: 80
+    - published: 23457
+      target: 443
+    volumes:
+    - C:\Users\tijme\.aspnet\https:/root/.aspnet/https:ro
+    - C:\Users\tijme\.microsoft\usersecrets:/root/.microsoft/usersecrets:ro
 version: '3.4'

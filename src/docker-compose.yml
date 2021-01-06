@@ -7,13 +7,13 @@ services:
       context: .
       dockerfile: AnonQ/Dockerfile
 
-      anonqjobs:
+  anonqjobs:
     image: ${DOCKER_REGISTRY-}anonqjobs
     build:
       context: .
       dockerfile: AnonQJobs/Dockerfile
 
-        anonq-react:
+  anonq-react:
     image: anonq-react
     container_name: anonq-react
     build:
@@ -27,7 +27,7 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
 
-      anonq-adminpanel:
+  anonq-adminpanel:
     image: anonq-adminpanel
     container_name: anonq-adminpanel
     build:

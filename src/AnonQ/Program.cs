@@ -17,6 +17,7 @@ namespace AnonQ
         {
             var host = CreateHostBuilder(args).Build();
             CreateDbIfNotExists(host);
+            Console.WriteLine("Starting");
             host.Run();
         }
         private static void CreateDbIfNotExists(IHost host)

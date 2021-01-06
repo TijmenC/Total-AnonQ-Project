@@ -29,7 +29,7 @@ namespace AnonQ
         public void ConfigureServices(IServiceCollection services)
         {
              services.AddDbContext<QuestionContext>(opt =>
-              opt.UseInMemoryDatabase("AnonQDatabase"));
+              opt.UseInMemoryDatabase("AnonQDatabase2"));
            // services.AddDbContext<QuestionContext>
             //    (op => op.UseSqlServer(Configuration.GetConnectionString("AnonQDatabase")));
             services.AddControllers();
@@ -50,7 +50,7 @@ namespace AnonQ
             // Disable when in production!
             app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
