@@ -17,6 +17,7 @@ docker-compose -f docker-compose.yml up -d
 >Admin dashboard: http://localhost:3020
 >Website: http://localhost:3010
 >API URL: https://localhost:23459
+>Jobs URL: https://localhost:23457
 
 
 
