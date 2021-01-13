@@ -42,7 +42,7 @@ namespace AnonQTests
         [Fact]
         public async Task Get_Request_Wrong_ID()
         {
-            var response = await _client.GetAsync("api/comment/7");
+            var response = await _client.GetAsync("api/comment/11");
 
             response.StatusCode.Should().Be(HttpStatusCode.NotFound);
         }
@@ -57,6 +57,13 @@ namespace AnonQTests
         public async Task Delete_Succeed_Comment()
         {
             var response = await _client.DeleteAsync("api/Comment/1");
+
+            response.StatusCode.Should().Be(HttpStatusCode.NoContent);
+        }
+        [Fact]
+        public async Task Delete_Succeed_QuestionAndPolls()
+        {
+            var response = await _client.DeleteAsync("api/Question/DeleteQuestionAndPolls/4");
 
             response.StatusCode.Should().Be(HttpStatusCode.NoContent);
         }
